@@ -1,0 +1,7 @@
+{
+  "name": "documentation-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/documentation-e2e/src",
+  "targets": {},
+  "implicitDependencies": ["documentation"]
+}

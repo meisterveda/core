@@ -1,0 +1,7 @@
+{
+  "name": "valkyrie-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/valkyrie-e2e/src",
+  "targets": {},
+  "implicitDependencies": ["valkyrie"]
+}
