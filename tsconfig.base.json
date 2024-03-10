@@ -15,10 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@core/shared/ui/*": ["libs/shared/ui/src/*"],
-      "@core/shared/util/*": ["libs/shared/util/src/*"],
       "@core/shared/ui": ["libs/shared/ui/src/index.ts"],
-      "@core/shared/util": ["libs/shared/util/src/index.ts"]
+      "@core/shared/ui/*": ["libs/shared/ui/src/*"],
+      "@core/shared/util": ["libs/shared/util/src/index.ts"],
+      "@core/shared/util/*": ["libs/shared/util/src/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
