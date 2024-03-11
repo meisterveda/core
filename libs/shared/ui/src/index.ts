@@ -2,3 +2,4 @@
 
 export * from './lib/molecules/header/header';
 export * from './lib/molecules/footer/footer';
+export * from './lib/molecules/hero/Hero';
