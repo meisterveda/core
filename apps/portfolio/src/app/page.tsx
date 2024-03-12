@@ -1,5 +1,11 @@
-import { Hero } from '@core/shared/ui';
+import { Features, Hero } from '@core/shared/ui';
 import styles from './page.module.css';
+
+const stacks: { name: string; items: string[] }[] = [
+  { name: 'test', items: ['item test', 'item 2 test', 'item 3 test'] },
+  { name: 'test 2', items: ['item test'] },
+  { name: 'test 3', items: ['item test'] },
+];
 
 export default function Index() {
   /*
@@ -10,6 +16,7 @@ export default function Index() {
   return (
     <div className={styles.page}>
       <Hero />
+      <Features stacks={stacks} />
     </div>
   );
 }
